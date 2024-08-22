@@ -1,17 +1,79 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="MhI0oBokNDtF1B08Q5_d">
-    <mxGraphModel dx="954" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="795" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kUcUos2ggl_KjSiscFA7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kUcUos2ggl_KjSiscFA7-2" target="kUcUos2ggl_KjSiscFA7-4">
+        <mxCell id="kUcUos2ggl_KjSiscFA7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kUcUos2ggl_KjSiscFA7-2" target="kUcUos2ggl_KjSiscFA7-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kUcUos2ggl_KjSiscFA7-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="364" y="50" width="100" height="60" as="geometry" />
+        <mxCell id="kUcUos2ggl_KjSiscFA7-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="364" y="50" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kUcUos2ggl_KjSiscFA7-4" value="choice = random numbers between 1-100" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="336" y="160" width="156" height="60" as="geometry" />
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kUcUos2ggl_KjSiscFA7-4" target="nZnGgUlaHOc_h77eGEq_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kUcUos2ggl_KjSiscFA7-4" value="choice = random numbers between 1-100" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="336" y="130" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nZnGgUlaHOc_h77eGEq_-1" target="nZnGgUlaHOc_h77eGEq_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-1" value="Show Text&lt;br&gt;Enter numbers Between 1-100" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="269" y="220" width="289" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-3" value="Guess =&lt;div&gt;get the number from user&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="304" y="300" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nZnGgUlaHOc_h77eGEq_-8" target="nZnGgUlaHOc_h77eGEq_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-8" value="Compare choice and guess" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="341" y="380" width="146" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nZnGgUlaHOc_h77eGEq_-3" target="nZnGgUlaHOc_h77eGEq_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nZnGgUlaHOc_h77eGEq_-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="590" />
+              <mxPoint x="61" y="590" />
+              <mxPoint x="61" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-10" value="Show text&lt;br&gt;&quot;Too Little&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="100" y="520" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nZnGgUlaHOc_h77eGEq_-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="590" />
+              <mxPoint x="800" y="590" />
+              <mxPoint x="800" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-11" value="Show text&lt;div&gt;&quot;Too Much&quot;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="510" y="520" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.538;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nZnGgUlaHOc_h77eGEq_-8" target="nZnGgUlaHOc_h77eGEq_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.545;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nZnGgUlaHOc_h77eGEq_-8" target="nZnGgUlaHOc_h77eGEq_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-16" value="Show text&lt;br&gt;&quot;Correct&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="304" y="580" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-20" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="680" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nZnGgUlaHOc_h77eGEq_-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nZnGgUlaHOc_h77eGEq_-16" target="nZnGgUlaHOc_h77eGEq_-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
